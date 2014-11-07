@@ -1,0 +1,14 @@
+{
+    "name": "videojs-youtube-progress",
+    "version": "0.1.0",
+    "description": "Youtube-like progress bar when control bar is hidden",
+    "author": [
+        "Alex Vasilenko <crahobzy@ukr.net>"
+    ],
+    "license": "MIT",
+    "main": "src/videojs-youtube-progress.js",
+    "devDependencies": {
+        "grunt": "~0.4.2",
+        "grunt-autoprefixer": "~1.0.1"
+    }
+}
