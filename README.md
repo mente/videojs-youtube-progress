@@ -3,7 +3,10 @@ videojs-youtube-progress
 
 ![Example screenshot](https://mente.github.io/videojs-youtube-progress/example.png)
 
-This is really simple plugin that allows you to preserve progress ui while control bar is hidden.
+This is really simple plugin that allows you to preserve progress ui while control bar is hidden. [Example](http://mente.github.io/videojs-youtube-progress/).
+
+Support
+======
 Plugin is based on video.js built-in controls, so native controls, iOS, flash player are not supported.
 
 Usage
