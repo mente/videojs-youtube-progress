@@ -1,3 +1,6 @@
+.vjs-default-skin {
+    overflow: hidden;
+}
 .vjs-default-skin.vjs-has-started .vjs-control-bar {
     transition: bottom 0.3s;
 }
