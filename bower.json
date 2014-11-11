@@ -1,16 +1,22 @@
 {
     "name": "videojs-youtube-progress",
-    "version": "0.1",
     "authors": [
         "Alex Vasilenko <crahobzy@ukr.net>"
     ],
+    "version": "0.1.0",
+    "main": "dist/videojs-youtube-progress.css",
     "keywords": [
         "videojs",
         "video",
         "youtube",
         "ui",
+        "progress",
         "plugin"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mente/videojs-youtube-progress"
+    },
     "dependencies": {
         "videojs": "~4.10.0"
     },

@@ -5,8 +5,20 @@
     "author": [
         "Alex Vasilenko <crahobzy@ukr.net>"
     ],
+    "keywords": [
+        "videojs",
+        "video",
+        "youtube",
+        "ui",
+        "progress",
+        "plugin"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mente/videojs-youtube-progress"
+    },
+    "bugs": "https://github.com/mente/videojs-youtube-progress/issues",
     "license": "MIT",
-    "main": "src/videojs-youtube-progress.js",
     "devDependencies": {
         "grunt": "~0.4.2",
         "grunt-autoprefixer": "~1.0.1"
