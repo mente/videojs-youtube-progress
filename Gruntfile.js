@@ -1,14 +1,21 @@
 module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-autoprefixer');
+    grunt.loadNpmTasks('grunt-contrib-less');
 
     grunt.initConfig({
+        less: {
+            development: {
+                files: {
+                    'dist/videojs-youtube-progress.css': 'src/videojs-youtube-progress.less'
+                }
+            }
+        },
         autoprefixer: {
             single_file: {
-                src: 'src/videojs-youtube-progress.css',
-                dest: 'dist/videojs-youtube-progress.css'
+                src: 'dist/videojs-youtube-progress.css'
             }
         }
     });
 
-    grunt.registerTask('default', ['autoprefixer']);
+    grunt.registerTask('default', ['less', 'autoprefixer']);
 };

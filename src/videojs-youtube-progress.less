@@ -1,0 +1,18 @@
+.vjs-default-skin {
+    overflow: hidden;
+    &.vjs-has-started .vjs-control-bar {
+        transition: bottom 0.3s;
+    }
+    &.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
+        bottom: -3em;
+        visibility: visible;
+        opacity: 1;
+    }
+    &.vjs-user-inactive.vjs-playing:hover .vjs-progress-control {
+        /* Force using small progress when vjs-control-bar is hidden */
+        font-size: 0.3em;
+    }
+    &.vjs-using-native-controls .vjs-control-bar, &.vjs-controls-disabled .vjs-control-bar, &.vjs-error .vjs-control-bar {
+        visibility: hidden;
+    }
+}
